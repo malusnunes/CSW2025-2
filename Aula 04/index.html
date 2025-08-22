@@ -23,7 +23,7 @@
 <hr>
 <hr>
 <h1>Principais formatações</h1>
-<br><hr>
+<br><br>
 <h2>Negrito/Destaque</h2>
 <p>Na frase temos <b>uma parte em negrito</b> usando a tag b (não semântica)</p>
 <p>Na frase temos <strong> uma parte em negrito</strong> usando a tag strong (com semântica)</p>
@@ -37,13 +37,49 @@
 <p>Aqui vamos usar um texto com destaque <mark>de marcador de texto</mark> usando mark</p>
 <br>
 <h2>Texto grande e pequeno</h2>
-<p>Estamos trabalhando aqui com um TEXTO GRANDE e um texto pequeno nesta frase</p>
+<p>Estamos trabalhando aqui com um <big>texto grande</big> e um <small>texto pequeno</small> nesta frase</p>
 <br>
 <h2>Texto Deletado</h2>
-<p>Neste parágrafo vamos trabalhar com um texto que foi excluído da frase (forma semântica)</p>
+<p>Neste parágrafo vamos trabalhar com um texto <strike>que foi excluído dessa frase</strike>(forma semântica)</p>
 <br>
 <h2>Texto inserido</h2>
-<p>Nesta frase vamos demonstrar como u</p>
+<p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma semântica</p>
+<p>Nesta frase vamos demonstrar como <u>destacar um texto inserido</u> na frase de forma não semântica</p>
+<h2>Texto sobrescrito</h2>
+<p>vamos demonstrar uma forma de equação do segundo grau <sup>ax2+bx+c=0</sup> usando a tag sup</p>
+<br>
+<h2>Texto subescrito</h2>
+<p>vamos demonstrar o texto subescrito com a <sub>fórmula da água H2O</sub></p>
+<br>
+<h2>Trecho de código fonte</h2>
+<p>Neste exemplo vou demonstrar um trecho de código</p>
+<p>inserido o comando document.getElementById ('edtcodigo) que é um comando java script</p>
+<p>Inserido um longo codigo me python:</p>
+<br>
+<br>
+<pre>
+    <code>
+def fahrenheit_para_celsius(f):
+    """
+            Converte temperatura de Fahrenheit para Celsius.
+            Fórmula: (F - 32) * 5/9
+            """
+            celsius = (f - 32) * 5/9
+            return celsius
+# Exemplo de uso:
+temp_f = 98.6
+print(f"{temp_f}°F = {fahrenheit_para_celsius(temp_f):.2f}°C")
+    </code>
+</pre>
+<h2>Citações completas (livros)</h2>
+<p>Segundo Sandra Kussunoki no seu livro A dança e o ventre:</p>
+<blockquote>
+   <cite=https://www.google.com.br/books/edition/O_di%C3%A1rio_de_Anne_Frank_Resumo/xUvSEAAAQBAJ?hl=pt-BR&gbpv=1&dq=anne+frank&printsec=frontcover
+
+   O "Diário de Anne Frank" é o relato pessoal de uma adolescente judia, Anne Frank, que se escondeu por dois anos com sua família e outros em um anexo secreto em Amesterdão, na Holanda, para fugir da perseguição nazista durante a Segunda Guerra Mundial. Em seu diário, Anne descreve os sentimentos, os medos e as pequenas alegrias da vida no esconderijo, além de seus sonhos de futuro, mas não sobrevive à guerra, morrendo de febre tifoide num campo de concentração. O diário, publicado após a guerra, tornou-se um dos livros mais lidos do mundo e um documento precioso sobre o Holocausto. 
+</blockquote>
+
+
 
 </body>
 </html>
