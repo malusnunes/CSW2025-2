@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+}
+
+h1{
+    color:whitesmoke;
+    background-color: lightblue;
+}
+
+h2,p{
+    color:darkred;
+}
+
+a{
+    font-size: 1cm;
+}
